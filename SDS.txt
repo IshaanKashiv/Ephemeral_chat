@@ -5,6 +5,7 @@ Server:
 		Online users, a global data structure gets initialized as a dictionary.
 		Server starts serving on a thread
 
+
 	When the server gets a request:
 
 		If the server gets a GET on /, a new thread is spawned
@@ -52,4 +53,5 @@ Extra features that can be added:
 	Random for each user session
 	letting users download the chat
 	tick mark/ received and sent sign
+
 	
